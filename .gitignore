@@ -1,0 +1,33 @@
+# Объектные и исполняемые файлы
+*.o
+*.obj
+*.exe
+*.out
+c/main
+cpp/main
+go/main
+rust/main
+asm/assembler
+
+# Байт-код JVM
+*.class
+
+# Node / TypeScript
+node_modules/
+typescript/dist/
+
+# .NET
+csharp/bin/
+csharp/obj/
+fsharp/bin/
+fsharp/obj/
+
+# Rust
+target/
+
+# Python
+__pycache__/
+*.pyc
+
+# Редактор
+.vscode/
